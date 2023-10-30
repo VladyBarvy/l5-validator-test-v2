@@ -1,10 +1,9 @@
 import Validator from './src/Validator.js';
 
 export default Validator;
-
-// const v = new Validator();
-
 /*
+const v = new Validator();
+
 const schema = v.string();
 
 console.log(schema.isValid(null)); // false

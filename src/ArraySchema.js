@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-export default class StringSchema {
+export default class ArraySchema {
   validators = [(value) => Array.isArray(value)];
 
   isValid(value) {
